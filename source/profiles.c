@@ -19,7 +19,7 @@ void green(led_t *currentKeyLedColors) {
 }
 
 void blue(led_t *currentKeyLedColors) {
-  setAllKeysColor(currentKeyLedColors, naiveDimRGB(0x0000FF));
+  setAllKeysColor(currentKeyLedColors, naiveDimRGB(colorPalette[3]));
 }
 
 /* Color bleed test pattern */
